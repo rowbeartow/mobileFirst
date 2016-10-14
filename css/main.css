@@ -1,0 +1,133 @@
+@-ms-viewport {
+    
+    width: device-width;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+
+    color: black;
+}
+
+img {
+    
+    max-width: 100%;
+}
+    
+h3 {
+    
+    font-family: "Helvetica";
+}
+
+p {
+    
+    font-family: "palatino linotype";
+    line-height: 1.5;
+    
+}
+
+
+/*** body{
+    margin:0px;
+    background:#306a89;
+    display: block;
+}
+***/
+
+
+nav,
+ul {
+text-align: center;
+padding: 3%;
+background-color: #306a89;
+
+    
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    
+}
+
+a {
+
+    text-align: center;
+    text-decoration: none;
+    font-family: "helvetica";
+    font-size: 1em;
+    padding: 3%;
+    color: #fcfcfd;
+}
+
+a:hover { 
+    color: #eb6920;
+    text-decoration: underline;
+}
+
+/****
+
+what the heck is: 
+a:nth-child(n+2) {
+  margin-left: 2%;
+}
+***/
+
+a:nth-child(n+2) {
+  margin-left: 2%;
+}
+
+p {
+    
+    padding-bottom: 2%;
+}
+    
+ 
+
+
+/*********************
+    Media Queries
+*********************/
+
+ @media (min-width: 787px) {
+     
+    section {
+         
+         display: inline-block;
+     }
+     
+    nav,
+     ul  {
+         
+         text-align: center;
+         padding: 1%;
+     }
+     
+     img { 
+         max-with: 50%;
+         float: left;
+         border: 10px solid red;
+     }
+     
+     h3 {
+         
+         display: inline-block;
+         margin: 2%;
+     }
+     
+     p {
+         
+         max-with: 50%;
+         padding: 2px;
+        
+     }
+      
+     
+    }
+
+
